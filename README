@@ -1,1 +1,3 @@
-#TODO: Make a README
+This Git Project is a META-Project, containting all of the sub-modules needed
+for a working Scientia installation.  See the file doc/cloning.txt for more
+information on how to clone in sub-modules and the like.
