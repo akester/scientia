@@ -1,3 +1,5 @@
+Pick the following heading for the comment style you need to use:
+
 /*
  * Scientia - Free Knowledge
  *
