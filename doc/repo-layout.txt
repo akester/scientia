@@ -1,0 +1,22 @@
+Scientia - Free Knowledge
+
+I'm writing this now because I know I'll get questions about the repo layout.
+
+The point is to try and avoid the Linux Kernel's (sorry Linus) problem of being
+so large.  I know git can work wonders in large settings, but to try and
+maintain loads of files in one repo sounds ... tortouruous.
+
+Instead, I've designed the repo to take advantage of git's submodule feature.
+What this will do is allow a team to maintain thier own repo with thier own
+branching and the like.  When they are ready to merge changes into the larger
+picture, they contact the repo manager and request that the branch be brought
+into the main program.
+
+This allows for a few things:
+	-Teams can be formed for speific areas of development, and have access to
+	only thier area.
+	-Users can clone only certain areas of the project (if they wish).
+	-Users have more power over versioning.  They can choose to run some
+	stable and some bleeding edge.
+	
+If you have a better way to do things, I'm always ears.
