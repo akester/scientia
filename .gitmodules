@@ -1,3 +1,6 @@
 [submodule "engine"]
 	path = engine
 	url = http://git.aikester.com/scientia/engine.git
+[submodule "modules/logic"]
+	path = modules/logic
+	url = http://git.aikester.com/scientia/logic.git
