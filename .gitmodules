@@ -4,3 +4,6 @@
 [submodule "modules/logic"]
 	path = modules/logic
 	url = http://git.aikester.com/scientia/logic.git
+[submodule "www"]
+	path = www
+	url = http://git.aikester.com/scientia/www.git
