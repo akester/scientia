@@ -1,1 +1,21 @@
-#TODO: Write Cloning Instructions.
+Scientia - Free Knowledge
+
+CLONING THE PROJECT
+
+	I made the project Open Souce so ANYONE could modify the source and help
+improve Scientia.  I use a non-standard approach to the repositories, mainly
+to aide in deployment as well as ensuring a user gets all of the needed
+sub-projects.
+
+To Clone:
+	1- Clone the main git project at:
+			http://git.aikester.com/scientia/scientia.git
+	2- Navigate to the 'scripts' directory and execute:
+			./init-submodules.sh
+		This will download all of the needed submodules at the stable commit.
+		If you want bleeding edge new, run the script:
+			./update-submodules.sh
+		This will pull the LATEST code for ALL of the submodules. (Hint: You
+		might just want to do this to one submodule)
+		
+Happy Coding.
