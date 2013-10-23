@@ -7,3 +7,6 @@
 [submodule "www"]
 	path = www
 	url = http://git.aikester.com/scientia/www.git
+[submodule "modules/tic-tac-toe"]
+	path = modules/tic-tac-toe
+	url = http://git.aikester.com/scientia/tic-tac-toe.git
