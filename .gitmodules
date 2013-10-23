@@ -10,3 +10,6 @@
 [submodule "modules/tic-tac-toe"]
 	path = modules/tic-tac-toe
 	url = http://git.aikester.com/scientia/tic-tac-toe.git
+[submodule "modules/meta"]
+	path = modules/meta
+	url = http://git.aikester.com/scientia/meta.git
